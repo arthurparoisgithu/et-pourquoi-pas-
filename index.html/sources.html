@@ -23,8 +23,10 @@
 }
 .si-cat-btn:hover { color: var(--text); background: var(--surface3); }
 .si-cat-btn.active {
-  background: var(--ember); color: white;
-  border-color: var(--ember);
+  background: linear-gradient(135deg, var(--amber-bright), var(--amber-hot));
+  color: #08070b;
+  border-color: var(--amber-bright);
+  font-weight: 700;
 }
 .si-grid {
   display: grid;
@@ -42,7 +44,7 @@
 }
 .si-item:hover {
   background: var(--surface2);
-  border-color: var(--ember-border);
+  border-color: var(--amber-border);
   transform: translateY(-2px);
   box-shadow: var(--shadow), var(--shadow-glow);
 }
@@ -55,8 +57,8 @@
 .si-item-meta {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.58rem; letter-spacing: 0.06em;
-  text-transform: uppercase; color: var(--ember-bright);
-  font-weight: 500;
+  text-transform: uppercase; color: var(--amber-hot);
+  font-weight: 600;
 }
 .si-item-url {
   font-family: 'JetBrains Mono', monospace;

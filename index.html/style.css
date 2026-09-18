@@ -32,6 +32,16 @@
   --gold:          #c9922a;
   --gold-light:    #e5ac3e;
 
+  /* Alias historiques : certaines pages utilisent --ember* (sources, prémisse,
+     accueil). Sans ces définitions, la couleur retombait sur le violet des
+     liens visités du navigateur. */
+  --ember:         #c9922a;
+  --ember-bright:  #e5ac3e;
+  --ember-hot:     #f0c050;
+  --ember-pale:    rgba(201,146,42,0.08);
+  --ember-border:  rgba(201,146,42,0.25);
+  --ember-glow:    rgba(201,146,42,0.12);
+
   --border:        rgba(255,255,255,0.04);
   --border2:       rgba(255,255,255,0.07);
   --border3:       rgba(255,255,255,0.10);
